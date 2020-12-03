@@ -16,8 +16,8 @@ export const inputer = ({input,setInput,findweather}) => {
     return (
         <div className="inputBox">
             <div className="inputBox__field">
-                <h1>google weather app</h1>
-                <p>powered by</p><br></br>
+                <h1>Weather App</h1>
+                <p>Created by <a href="https://sureshturbo.github.io/profile/">Sureshrajan</p><br></br>
                 <form>
                     <Input placeholder="enter the city name" onChange={handleChange} value={input}></Input>
                     <br></br>
